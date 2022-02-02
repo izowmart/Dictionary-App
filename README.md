@@ -6,3 +6,4 @@
 4. Room Database.
 5. Retrofit Api.
 6. Offline Caching with Room Db of the already searched names.
+7. Clean Architecture with Use-Case.
