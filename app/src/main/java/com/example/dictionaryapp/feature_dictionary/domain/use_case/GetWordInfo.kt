@@ -13,6 +13,7 @@ class GetWordInfo(
         if (word.isBlank()){
             return flow {  }
         }
+
         return repository.getWordInfo(word)
     }
 }
