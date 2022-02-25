@@ -9,6 +9,8 @@ data class WordInfoDto(
     val phonetic: String,
     val phonetics: List<PhoneticDto>,
     val word: String
+    
+    
 ) {
     fun toWordInfoEntity(): WordInfoEntity {
         return WordInfoEntity(
